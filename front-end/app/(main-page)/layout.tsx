@@ -1,18 +1,27 @@
 'use client';
 
+import { Box, CssBaseline } from '@mui/material';
+import HeaderWrapper from '../../components/sidebarnav/menu';
 import { Provider } from 'react-redux';
-import './global.css';
 import store from '../../redux/store';
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <Provider store={store}>
-        <body>{children}</body>
-      </Provider>
-    </html>
-  )
+    return (
+        <>
+            <html>
+                <Provider store={store}>
+                    <body>
+                        <HeaderWrapper>
+                            <Box sx={{ display: 'flex' }}>
+                                <Box sx={{ p: 3, width: '100%' }}>{children}</Box>
+                            </Box>
+                        </HeaderWrapper>
+                    </body>
+                </Provider>
+            </html>
+        </>
+    )
 }
