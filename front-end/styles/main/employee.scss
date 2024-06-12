@@ -1,0 +1,284 @@
+.css-15wwp11-MuiTableHead-root {
+  background-color: rgba(238, 238, 238, 1);
+}
+
+.css-zddlty-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: white;
+}
+
+.MuiTypography-h6 {
+  display: flex;
+}
+
+.filter-font {
+  font-family: Inter !important;
+  text-transform: none;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  text-transform: none;
+  font-family: Inter !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  font-family: Inter !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  text-transform: none;
+}
+
+.icon-style {
+  margin-right: 5px;
+}
+
+.MuiTableCell-head {
+  width: 50%;
+}
+
+.table-header-label {
+  white-space: nowrap; /* Prevent word wrapping */
+}
+
+.MuiInputBase-root {
+  height: 40px !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  display: none;
+}
+
+.tenth_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+}
+
+.candidate-list-table-container {
+  .MuiTableContainer-root {
+    .MuiTable-root {
+      .MuiTableBody-root {
+        .MuiTableRow-root {
+          td {
+            text-align: left;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.candidate-list-table-container {
+  table {
+    thead {
+      tr {
+        th:last-child {
+          position: sticky;
+          right: 0;
+          background-color: #f4f4f4;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td:last-child {
+          position: sticky;
+          right: 0;
+          background-color: #808080;
+          height: 72px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.MuiTableContainer-root {
+  .MuiTable-root {
+    .MuiTableHead-root {
+      .MuiTableRow-root {
+        background-color: #f4f4f4;
+      }
+    }
+  }
+}
+
+.MuiPaper-root {
+  .MuiList-root {
+    .MuiButtonBase-root {
+      .MuiListItemIcon-root {
+        .MuiSvgIcon-root {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.selected-header {
+  display: flex;
+  gap: 20px;
+}
+
+.delete-header {
+  height: 36px;
+  width: 100px;
+  border: 2px solid #d7dbe0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: right;
+}
+
+.status-active {
+  padding: 2px 8px 2px 8px;
+  border-radius: 4px;
+  background-color: #ebf9f5;
+  color: #00ba88;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  /* additional styles for active status */
+}
+
+.status-Inactive {
+  padding: 2px 8px 2px 8px;
+  border-radius: 4px;
+  background-color: #ebf9f5;
+  color: #dc3545;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  /* additional styles for inactive status */
+}
+
+.toolbar-container {
+  .MuiToolbar-root {
+    .MuiTypography-root {
+      justify-content: space-between;
+      .menu-bar {
+        margin-right: 0px;
+      }
+      .headerbar-container {
+        display: flex;
+      }
+    }
+  }
+}
+
+.candidate-list-table-container {
+  .MuiTableContainer-root {
+    .MuiTable-root {
+      .MuiTableHead-root {
+        .MuiTableRow-root {
+          .MuiTableCell-root {
+            font-size: 12px !important;
+            font-family: Inter !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.resume-candi {
+  color: white;
+  font-family: Inter !important;
+  text-transform: none;
+  height: 36px;
+  border-radius: 4px;
+  border: 2px solid #7b2cbf;
+  background-color: #7b2cbf;
+}
+
+.headerbar-container {
+  display: flex;
+}
+
+.MuiToolbar-root {
+  .MuiTypography-root {
+    justify-content: end;
+  }
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Inter !important;
+}
+
+.MuiTable-root {
+  .p-datatable-list {
+    .MuiTableRow-head {
+      .MuiTableCell-alignLeft {
+        padding: 15px;
+      }
+    }
+  }
+}
+
+.MuiTableBody-root {
+  .MuiTableRow-hover {
+    .MuiTableCell-paddingNone {
+      padding: 15px;
+    }
+  }
+}
+
+.MuiTableContainer-root {
+  .p-datatable-list {
+    .MuiTableRow-head {
+      .MuiTableCell-head {
+        width: 5%;
+      }
+    }
+  }
+}
+
+.css-1975x3o-MuiTableContainer-root {
+  .css-1gplja-MuiTable-root {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+  .css-1gplja-MuiTable-root::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+.custom-table-container {
+  max-height: 70vh; /* Adjust as needed to fit within the viewport */
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.custom-table-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.css-pjjt8i-MuiToolbar-root {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+
+.custom-table-container {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.p-datatable-list th {
+  position: sticky;
+  top: 0;
+  background-color: white; // Ensure the header background is not transparent
+  z-index: 1; // Make sure header is above the table body
+}

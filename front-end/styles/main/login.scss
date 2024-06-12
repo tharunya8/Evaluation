@@ -1,0 +1,40 @@
+.login-button {
+  font-size: 14px;
+  font-family: "Inter";
+  width: 70px;
+  height: 40px;
+}
+
+.header-login {
+  color: white;
+  font-family: "Inter";
+  font-size: 25px;
+}
+
+.email-sty {
+  color: white;
+  font-family: "Inter";
+  border-radius: 5px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-roo {
+  color: white;
+}
+
+.email-sty {
+  .MuiInputLabel-animated {
+    color: white;
+  }
+}
+
+.login-background {
+  flex: 1px;
+  background-image: url("../../public/images/aaludra-logo-gradient-with-black-text.svg"); /* Update with the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

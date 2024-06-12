@@ -1,0 +1,20 @@
+.css-10hburv-MuiTypography-root {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.admin-sidebar {
+  .MuiDrawer-paperAnchorLeft {
+    .MuiList-padding {
+      padding-top: 15px;
+      margin-left: 3px;
+    }
+  }
+}
+
+.admin-sidebar .MuiDrawer-paperAnchorLeft .MuiList-padding {
+  margin-top: 60px;
+}

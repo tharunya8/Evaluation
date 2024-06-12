@@ -1,0 +1,36 @@
+.header-main-container {
+  background-color: #fff;
+  box-shadow: 0px 4px 12px 0px #00000014;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-sub-container {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 60px;
+    .header-nav-items {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+      li a {
+        text-decoration: none;
+        color: inherit;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .header-btn-container {
+      gap: 16px;
+      display: flex;
+    }
+  }
+}
