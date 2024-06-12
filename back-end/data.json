@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "66584f5a877da1f9e6aa65c3",
+    "basic_info": {
+      "client Name": "Sanjeev",
+      "contact Person": "Jeeva",
+      "email": "sanjeev@gmail.com",
+      "phone Number": "7490974193"
+    },
+    "created_at": "1977-03-19T23:00:00.000Z",
+    "created_by": "system",
+    "updated_at": "1977-03-19T23:00:00.000Z",
+    "updated_by": "system",
+    "status": "Active"
+  },
+  {
+    "_id": "66584f5a877da1f9e6aa65c3",
+    "basic_info": {
+      "client Name": "tharunya",
+      "contact Person": "sree",
+      "email": "tharunya@gmail.com",
+      "phone Number": "7490974193"
+    },
+    "created_at": "1977-03-19T23:00:00.000Z",
+    "created_by": "system",
+    "updated_at": "1977-03-19T23:00:00.000Z",
+    "updated_by": "system",
+    "status": "Active"
+  },
+  {
+    "_id": "66584f5a877da1f9e6aa65c3",
+    "basic_info": {
+      "client Name": "revathi",
+      "contact Person": "naveen",
+      "email": "sanjeev@gmail.com",
+      "phone Number": "7490974193"
+    },
+    "created_at": "1977-03-19T23:00:00.000Z",
+    "created_by": "system",
+    "updated_at": "1977-03-19T23:00:00.000Z",
+    "updated_by": "system",
+    "status": "Active"
+  },
+  {
+    "_id": "66584f5a877da1f9e6aa65c3",
+    "basic_info": {
+      "client Name": "mani",
+      "contact Person": "senthil",
+      "email": "mane@gmail.com",
+      "phone Number": "7490974193"
+    },
+    "created_at": "1977-03-19T23:00:00.000Z",
+    "created_by": "system",
+    "updated_at": "1977-03-19T23:00:00.000Z",
+    "updated_by": "system",
+    "status": "Active"
+  }
+]
